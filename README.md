@@ -8,62 +8,88 @@ Armar una lista de benchmarks, ¿cuales les serían más útiles a cada uno ? ¿
 Evaluar el rendimiento de procesamiento en tareas generales, cálculos intensivos y simulaciones.
 Comparar la eficiencia entre diferentes procesadores.
 Algunos ejemplos: 
-  *AIDA64
-  *7-Zip
-  *PCMark 
+
+  - AIDA64  
+  - 7-Zip  
+  - PCMark 
   
 🔹 2. Benchmarks para Memoria RAM
 Útil para:
+
 Medir la velocidad de lectura/escritura y la latencia de la memoria RAM.
+
 Algunos ejemplos:
-  *AIDA64
-  *Novabench
+
+  - AIDA64
+  - Novabench
 
 Ver cómo afecta la velocidad de la RAM al rendimiento del sistema.
 
 🔹 3. Benchmarks para GPU (Cómputo y Gráficos)
+
 Útil para:
+
 Medir el rendimiento de la GPU en tareas gráficas y de cómputo paralelo.
+
 Evaluar la capacidad de la GPU en Machine Learning, rendering y videojuegos.
+
 Algunos ejemplos:
-  *Cinebench R15
-  *Unigine Heaven 
-  *3DMark
+
+  - Cinebench R15
+  - Unigine Heaven 
+  - 3DMark
 
 🔹 4. Benchmarks para Discos SSD/HDD
+
 Útil para:
+
 Medir la velocidad de lectura/escritura y la latencia del almacenamiento.
+
 Evaluar el impacto del almacenamiento en el rendimiento del sistema.
+
 Algunos ejemplos:
-  *CrystalDisk Mark
-  *NovaBench
+
+  - CrystalDisk Mark
+  - NovaBench
 
 🔹 5. Benchmarks para Redes y Servidores
+
 Útil para:
+
 Evaluar la velocidad de la red, latencia y rendimiento de servidores.
+
 Comparar diferentes configuraciones de red.
+
 Algunos ejemplos:
-  *ApacheBench 
-  *LoadRunner
+
+  - ApacheBench 
+  - LoadRunner
 
 🔹 6. Benchmarks para Bases de Datos
 Útil para:
+
 Evaluar el rendimiento de consultas SQL y bases de datos NoSQL.
+
 Medir la latencia y throughput en bases de datos.
+
 Algunos ejemplos:
-  *TPC Benchmark
-  *MySQL Benchmark Suite
+
+  - TPC Benchmark
+  - MySQL Benchmark Suite
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Pensar en las tareas que cada uno realiza a diario y escribir en una tabla de dos entradas las tareas y que benchmark la representa mejor.
 
 ---------------------------------------------------------------------------------------------------------------------------------
+## Benchmark Linux Kernel Compilation
 
 Cual es el rendimiento de estos procesadores para compilar el kernel de linux ?
 Intel Core i5-13600K
 AMD Ryzen 9 5900X 12-Core
 
+Benchmark elegido: build-linux-kernel-1.16.x  - Build: defconfig
+ 
 ![image](https://github.com/user-attachments/assets/fd479084-e191-4ee8-8073-f1bd0363672a)
 ![image](https://github.com/user-attachments/assets/6208a47f-96c8-4b79-9e66-8306e1bb69d0)
 
@@ -76,6 +102,16 @@ Tomando como referencia los datos provistos en el sitio web openbenchmarking.org
 |   Intel Core i5-13600K  |     14    |     83    |   1.16  |
 |   AMD Ryzen 9 7950X     |     16    |     53    |   1.83  |
 
+También se realizó este mismo test para el procesador AMD Ryzen 5 2600
+
+![benchmark_kernel](https://github.com/user-attachments/assets/26ff9a58-c574-4dba-acbe-e53942eb7eb8)
+
+Viendo los resultados se puede realizar la siguiente tabla:
+
+|        Procesador       |  Nucleos  |  Tiempo   | SpeedUp | 
+|-------------------------|-----------|-----------|---------|
+|    AMD Ryzen 5 2600     |     6     |    231    |   1.00  |
+|    AMD Ryzen 9 5900X    |     12    |     97    |   2.38  |
 
 ## Tutorial de Gprof
 
