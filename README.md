@@ -6,42 +6,53 @@ Armar una lista de benchmarks, ¿cuales les serían más útiles a cada uno ? ¿
 Útil para:
 
 Evaluar el rendimiento de procesamiento en tareas generales, cálculos intensivos y simulaciones.
-
 Comparar la eficiencia entre diferentes procesadores.
-
+Algunos ejemplos: 
+  *AIDA64
+  *7-Zip
+  *PCMark 
+  
 🔹 2. Benchmarks para Memoria RAM
 Útil para:
-
 Medir la velocidad de lectura/escritura y la latencia de la memoria RAM.
+Algunos ejemplos:
+  *AIDA64
+  *Novabench
 
 Ver cómo afecta la velocidad de la RAM al rendimiento del sistema.
+
 🔹 3. Benchmarks para GPU (Cómputo y Gráficos)
 Útil para:
-
 Medir el rendimiento de la GPU en tareas gráficas y de cómputo paralelo.
-
 Evaluar la capacidad de la GPU en Machine Learning, rendering y videojuegos.
+Algunos ejemplos:
+  *Cinebench R15
+  *Unigine Heaven 
+  *3DMark
 
 🔹 4. Benchmarks para Discos SSD/HDD
 Útil para:
-
 Medir la velocidad de lectura/escritura y la latencia del almacenamiento.
-
 Evaluar el impacto del almacenamiento en el rendimiento del sistema.
+Algunos ejemplos:
+  *CrystalDisk Mark
+  *NovaBench
 
 🔹 5. Benchmarks para Redes y Servidores
 Útil para:
-
 Evaluar la velocidad de la red, latencia y rendimiento de servidores.
-
 Comparar diferentes configuraciones de red.
+Algunos ejemplos:
+  *ApacheBench 
+  *LoadRunner
 
 🔹 6. Benchmarks para Bases de Datos
 Útil para:
-
 Evaluar el rendimiento de consultas SQL y bases de datos NoSQL.
-
 Medir la latencia y throughput en bases de datos.
+Algunos ejemplos:
+  *TPC Benchmark
+  *MySQL Benchmark Suite
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -55,10 +66,6 @@ AMD Ryzen 9 5900X 12-Core
 
 ![image](https://github.com/user-attachments/assets/fd479084-e191-4ee8-8073-f1bd0363672a)
 ![image](https://github.com/user-attachments/assets/6208a47f-96c8-4b79-9e66-8306e1bb69d0)
-
-
-
-
 
 ¿Cual es la aceleración cuando usamos un AMD Ryzen 9 7950X 16-Core?
 Tomando como referencia los datos provistos en el sitio web openbenchmarking.org se obtienen los siguientes datos
