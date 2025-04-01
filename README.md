@@ -1,5 +1,38 @@
 # SdC TP1
 
+## Tutorial de Gprof
+
+### Paso 1 y 2: creación de perfiles habilitada durante la compilación y ejecución del código
+
+Se crearon los archivos propuestos por la guía para luego compilarlos y ejecutar su código.
+Las pruebas se realizaron en un microprocesador AMD Ryzen 5 2600 @ 3.4GHz
+
+![paso1_2](https://github.com/user-attachments/assets/98810844-3015-45f1-9ed1-3fe7b9fdc6d1)
+
+### Paso 3: Ejecución de la herramienta gprof
+
+Los resultados guardados en gmon.out se pueden visualizar ejecutando el comando gprof utilizando de parámetros el ejecutable del archivo que compilamos y el gmon.out
+
+![paso3](https://github.com/user-attachments/assets/ef3ff50e-1847-473a-9233-c4d2082076d7)
+
+Gprof también nos permite mostrar la información que sea de interés mediante distintos parámetros.
+Por ejemplo, se puede imprimir solamente el perfil plano usando el parametro -p:
+
+![paso3a](https://github.com/user-attachments/assets/9995182b-a12f-415c-8951-1a4a63ed551e)
+
+## Profiling con Linux Perf
+
+![Linuxperf1](https://github.com/user-attachments/assets/f1a171f6-8120-4855-8172-bc65aa5c0586)
+
+![Linuxperf2](https://github.com/user-attachments/assets/dfe648db-89a6-41c4-a1a9-8212ccfa7bd0)
+
+
+
+
+
+
+
+
 Armar una lista de benchmarks, ¿cuales les serían más útiles a cada uno ? ¿Cuáles podrían llegar a medir mejor las tareas que ustedes realizan a diario ? 
 
 🔹 1. Benchmarks para CPU y Cómputo en General
